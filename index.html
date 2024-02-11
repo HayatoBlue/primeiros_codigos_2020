@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Estudos em python</title>
+        <style>
+            .teste{
+                width: 140px;
+                height: 200px;
+                background: turquoise;
+                transition: width 1s;
+                transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+            }
+            .teste:hover {
+                width: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <h1>O início</h1>
+            <div class="container">
+                <p>Iniciei meus estudos em python em fevereiro de 2021, este mês faz três anos que comecei meus estudos. E agora estou estudando HTML, CSS e JavaScript (este site é um teste, a forma que eu pensei para poder aprimorar minhas habilidades) e muito em breve iniciarei meus estudos em C# (se eu estou entusiasmado? Muito!).</p>
+                <p>Na verdade no inicio eu comecei com logica de programação, Grandissisimo Guanabara, muito obrigado! Apos isso comecei a ver sobre python, e me apaixonei de cara.</p>
+                <p>Não pela simplicidade em termos de outras linguagens de programação, ou na facilidade que você pode ver seu codigo rodando (Às vezes ate errado(muitas vezes)), ou a velocidade. Foi pelo simples fato de estar fazendo o que eu estava fazendo, não só aprendendo algo novo, era um novo universo, outra forma de pensar, algo que até aquele momento da vida eu ainda era ingênuo.</p>
+                <p>Foram as criações e os acertos que me fizeram continuar e conseguia a cada dúvida sanada reascender a chama da curiosidade. Outro agradecimento muitissimo especial é para a professora "" da UFABC. que além de uma exelente professora, consegue tornar tudo muito mais simples. Eu amei assistir o seu curso!</p>
+            </div>
+            <div class="container2">
+                <h2>Primeiro algoritmo no github</h2>
+                <p>Atualmente os únicos codigos python que tenho, são os que postei lá.</p>
+                <pre>
+                    <code>
+                        def maior_de_tres(a, b, c):
+                            x = (a + b) / 2 + abs(a - b) / 2
+                            return x
+
+                        n1 = input().split(' ')
+
+                        a = int(n1[0])
+                        b = int(n1[1])
+                        c = int(n1[2])
+
+                        maior = maior_de_tres(a, b, c)
+                        maiorx = int(maior)
+                        print(f"{maiorx} é o maior")
+                        print("fim do programa.")
+                    </code>
+                </pre>
+                <p>Confesso que não tem <sub>print("fim do programa") no código que está no github, mas decidi adicionar agora. Este codigo serve para encontrar o maior valor dentre três numeros inteiros, e só. É a resposta da questão 1013 do beecrowd, provavelmente o link para a questão está AQUI (espero kkkk).</sub></p>
+                <p>Mas se você me perguntar como eu criei este algoritimo e se conseguiria responder essa questão novamente de outra maneira? Acho que reponderia: "Porra, acho que seria muito mais dificil de faxer do que aprender o C# que estou para enfrentar." ou não, vai saber.</p>
+                <h2>Segundo código do github</h2>
+                <pre>
+                    <code>
+                        n = int(input())
+                        print(n)
+
+                        n100 = n // 100
+                        n = n - n100 * 100
+                        
+                        n50 = n // 50
+                        n = n - n50 * 50
+
+                        n20 = n // 20
+                        n = n - n20 * 20
+
+                        n10 = n // 10
+                        n = n - n1 * 10
+
+                        n5 = n // 5
+                        n = n - n5 * 5
+                        
+                        n2 = n // 2
+                        n = n - n2 * 2
+
+                        n1 = n // 1
+
+                        print(f"{n100} nota(s) de R$ 100,00")
+                        print(f"{n50} nota(s) de R$ 50,00")
+                        print(f"{n20} nota(s) de R$ 20,00")
+                        print(f"{n10} nota(s) de R$ 10,00")
+                        print(f"{n5} nota(s) de R$ 5,00")
+                        print(f"{n2} nota(s) de R$ 2,00")
+                        print(f"{n1} nota(s) de R$ 1,00")
+                    </code>
+                </pre>
+                <p>
+                    Porra, como pude me esquecer que extia a função <i>ctrl c</i> e <i>ctrl v</i>. Mas pelo menos foi bom para exercitar o python e a lógica em si. Porque na primeira vez que vi esse codigo eu levei um susto, muito complicado. Mas quando fui digitando para adiciona-lo ao código HTML fui entendendo a logica por tras, mas também testarei-o em breve pra ver se funciona bem.
+                </p>
+                <div class="teste">
+                    <p>
+                        Logo atualizo com fotos dos testes dos códigos, álias esse foi meu primeiro teste com css, ou será que foi o mais legal, não me lembro agora...
+                    </p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            &copy; Altemir Bonfim. Todos os direitos reservados. 08 de Fevereiro de 2024 - 02:35
+        </footer>
+        <!--preimeiro teste pelo celular é amanhã espero que funcione bem também.-->
+    </body>
+</html>
